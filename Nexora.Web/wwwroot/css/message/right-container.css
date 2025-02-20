@@ -1,0 +1,147 @@
+﻿.right-container-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.messagebox-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 0;
+}
+
+.messagebox-header {
+    display: flex;
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.messagebox-header-img-container {
+    width: 4rem;
+    height: 4rem;
+    justify-content: start;
+}
+
+.messagebox-header-img-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.messagebox-header-contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.messagebox-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    border-radius: 10px;
+    padding: 1.6rem;
+    gap: .8rem;
+    justify-content: space-between;
+}
+
+.contact-info-section {
+    display: none;
+}
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.message-item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 1.6rem;
+}
+
+.message-item-profile {
+    width: 4rem;
+    height: 4rem;
+}
+
+.message-item.current-user {
+    align-self: flex-end;
+}
+
+.message-item.current-user .message-item-profile {
+    display: none;
+}
+
+.message-item-profile > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.message-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.message-text-container .message-text {
+    padding: 1.6rem;
+    border-radius: 15px;
+    background-color: #f4f4f4de;
+    font-size: 1.4rem;
+}
+
+.message-item.current-user .message-text {
+    background-color: #8353c2ce;
+    color: #fff;
+}
+
+.messagebox-input {
+    height: 80px;
+    width: 100%;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    background-color: #fff;
+    gap: 1.6rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 1.6rem;
+}
+
+.messagebox-input > textarea {
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+    resize: none;
+}
+
+.messagebox-actions {
+    display: flex;
+    gap: .8rem;
+}
+
+.icon {
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

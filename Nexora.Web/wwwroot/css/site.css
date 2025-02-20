@@ -1,0 +1,30 @@
+html {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+main {
+    display: grid;
+    grid-template-columns: minmax(200px, 300px) 2fr;
+    height: 100%;
+}
+
+.custom-box-shadow {
+    box-shadow: 0 0 1px #000;
+}
